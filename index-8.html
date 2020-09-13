@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Projects</title>
+		<link rel="icon" href="images/favicon.ico">
+		<link rel="shortcut icon" href="images/favicon.ico">
+		<link rel="stylesheet" href="css/touchTouch.css">
+		<link rel="stylesheet" href="css/style.css">
+		<script src="js/jquery.js"></script>
+		<script src="js/jquery-migrate-1.1.1.js"></script>
+		<script src="js/jquery.equalheights.js"></script>
+		<script src="js/jquery.ui.totop.js"></script>
+		<script src="js/jquery.easing.1.3.js"></script>
+		<script src="js/touchTouch.jquery.js"></script>
+		<script>
+		$(document).ready(function(){
+			$().UItoTop({ easingType: 'easeOutQuart' });
+			$('.gallery a.gal').touchTouch();
+		})
+		</script>
+		<!--[if lt IE 8]>
+		<div style=' clear: both; text-align:center; position: relative;'>
+			<a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
+				<img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." />
+			</a>
+		</div>
+		<![endif]-->
+		<!--[if lt IE 9]>
+		<script src="js/html5shiv.js"></script>
+		<link rel="stylesheet" media="screen" href="css/ie.css">
+		<![endif]-->
+		<!--[if lt IE 10]>
+		<link rel="stylesheet" media="screen" href="css/ie1.css">
+		<![endif]-->
+	</head>
+	<body class="">
+<!--==============================header=================================-->
+		<header>
+			<div class="container_12">
+				<div class="grid_12">
+					<h1><a href="index.html"><img src="F:\project\career guidance\site\images\career guidance image.jpg" alt="Boo House"></a></h1>
+					<div class="menu_block">
+						<nav id="bt-menu" class="bt-menu">
+							<a href="#" class="bt-menu-trigger"><span>Menu</span></a>
+							<ul>
+								<li class="current bt-icon"><a href="index.html">Home</a></li>
+								<li class="bt-icon"><a href="index-1.html">About</a></li>
+								<li class="bt-icon"><a href="index-2.html">Apptitude Test</a></li>
+								<li class="bt-icon"><a href="index-3.html">Colleges</a></li>
+								<li class="bt-icon"><a href="index-5.html">Contacts</a></li>
+								<li class="bt-icon"><a href="index-4.html">Log Out</a></li>
+							</ul>
+						</nav>
+						<div class="clear"></div>
+					</div>
+					<div class="clear"></div>
+				</div>
+			</div>
+		</header>
+<!--==============================Content=================================-->
+		<div class="content cont2"><div class="ic">More Website Templates @ TemplateMonster.com - February 24, 2014!</div>
+			<div class="container_12">
+				<div class="grid_12">
+					<h2 class="mb0">Apptitude Test</h2>
+<div class="pull-right">
+<script language ="javascript" >
+        var tim;
+       
+        var min = 9;
+        var sec = 60;
+        var f = new Date();
+        function f1() {
+            f2();
+            document.getElementById("starttime").innerHTML = "Your started your Exam at " + f.getHours() + ":" + f.getMinutes();
+             
+          
+        }
+        function f2() {
+            if (parseInt(sec) > 0) {
+                sec = parseInt(sec) - 1;
+                document.getElementById("showtime").innerHTML = "Your Left Time  is :"+min+" Minutes ," + sec+" Seconds";
+                tim = setTimeout("f2()", 1000);
+            }
+            else {
+                if (parseInt(sec) == 0) {
+                    min = parseInt(min) - 1;
+                    if (parseInt(min) == 0) {
+                        clearTimeout(tim);
+                        location.href = "default5.aspx";
+                    }
+                    else {
+                        sec = 60;
+                        document.getElementById("showtime").innerHTML = "Your Left Time  is :" + min + " Minutes ," + sec + " Seconds";
+                        tim = setTimeout("f2()", 1000);
+                    }
+                }
+               
+            }
+        }
+    </script>
+</head>
+<body onload="f1()" >
+    <form id="form1" runat="server">
+    <div>
+      <table width="100%" align="center">
+                  <tr>
+          <td>
+            <div id="starttime"></div><br />
+            <div id="endtime"></div><br />
+            <div id="showtime"></div>
+          </td>
+        </tr>
+        <tr>
+          <td height="20">
+             
+              <br />
+            
+              
+          </td>
+         
+        </tr>
+      </table>
+      <br />
+   
+
+    </div>
+    </form>
+
+</div>
+
+				</div>
+			</div>
+		</div>
+		<div class="gray_block gb1">
+			<div class="container_12">
+				<div class="gallery">
+				  <div class="title1">
+                    <ol>
+                      <li><em>*Choose the correct word and fill in the blanks :</em></li>
+                    </ol>
+				    <form name="form3" method="post" action="">
+				      <p>&nbsp;</p>
+				      <p>1.Something that is out of fashion is called ................ .</p>
+				      <table width="861">
+				        <tr>
+				          <td width="223"><label> a.
+				            <input type="radio" name="RadioGroup1" value="radio" id="RadioGroup2_12">
+				            Traditional
+				          </label></td>
+				          <td width="215">b.
+				            <input type="radio" name="RadioGroup1" value="radio" id="RadioGroup2_13">
+			              Old</td>
+				          <td width="201">c.
+				            <input type="radio" name="RadioGroup1" value="radio" id="RadioGroup2_14">
+			              Obsolete</td>
+				          <td width="202">d.
+				            <input type="radio" name="RadioGroup1" value="radio" id="RadioGroup2_15">
+			              Primitive</td>
+			            </tr>
+			          </table>
+				      <p>&nbsp;</p>
+				      <p>2.When you demonstrate an experiment, it meanse you ............ it.</p>
+				      <table width="874">
+				        <tr>
+				          <td width="219"><label>
+				            a.
+				            
+				                <input type="radio" name="RadioGroup2" value="radio" id="RadioGroup2_40">
+				                Show
+				          </label></td>
+				          <td width="211">b.
+				            <input type="radio" name="RadioGroup2" value="radio" id="RadioGroup2_1">
+				            Remonstrate</td>
+				          <td width="198">c.
+				            <input type="radio" name="RadioGroup2" value="radio" id="RadioGroup2_2">
+				            Witness</td>
+				          <td width="226">d.
+				            <input type="radio" name="RadioGroup2" value="radio" id="RadioGroup2_3">
+				            Experience</td>
+			            </tr>
+			          </table>
+				      <p>&nbsp;</p>
+				      <p>3.Sachin Tendulkar reached the ........... of his career at an early age.</p>
+				      <table width="874">
+				        <tr>
+				          <td width="219"><label> a.
+				            <input type="radio" name="RadioGroup3" value="radio" id="RadioGroup2_4">
+				            Zenith
+				          </label></td>
+				          <td width="194">b.
+				            <input type="radio" name="RadioGroup3" value="radio" id="RadioGroup2_5">
+			              Top</td>
+				          <td width="218">c.
+				            <input type="radio" name="RadioGroup3" value="radio" id="RadioGroup2_6">
+			              Pinnacle</td>
+				          <td width="223">d.
+				            <input type="radio" name="RadioGroup3" value="radio" id="RadioGroup2_7">
+			              Apex</td>
+			            </tr>
+			          </table>
+				      <p>&nbsp;</p>
+				      <p>4.Sagar could not .............. the incident that happened in his childhood.</p>
+				      <table width="874">
+				        <tr>
+				          <td width="219"><label> a.
+				            <input type="radio" name="RadioGroup4" value="radio" id="RadioGroup2_8">
+				            assemble
+				          </label></td>
+				          <td width="194">b.
+				            <input type="radio" name="RadioGroup4" value="radio" id="RadioGroup2_9">
+			              realise</td>
+				          <td width="218">c.
+				            <input type="radio" name="RadioGroup4" value="radio" id="RadioGroup2_10">
+			              memorize</td>
+				          <td width="223">d.
+				            <input type="radio" name="RadioGroup4" value="radio" id="RadioGroup2_11">
+			              recollect</td>
+			            </tr>
+			          </table>
+				      <p>&nbsp;</p>
+				      <p>5.Although the situation is bad there is no cause for ................... .</p>
+				      <table width="874">
+				        <tr>
+				          <td width="219"><label> a.
+				            <input type="radio" name="RadioGroup5" value="radio" id="RadioGroup2_16">
+				            attention
+				          </label></td>
+				          <td width="203">b.				            
+			              <input type="radio" name="RadioGroup5" value="radio" id="RadioGroup2_17">
+			              concern</td>
+				          <td width="206">c.
+				            <input type="radio" name="RadioGroup5" value="radio" id="RadioGroup2_18">
+			              caution</td>
+				          <td width="226">d.
+				            <input type="radio" name="RadioGroup5" value="radio" id="RadioGroup2_19">
+			              desire</td>
+			            </tr>
+			          </table>
+				      <p>&nbsp;</p>
+				      <p><em>*Choose a correct meaning of the idioms &amp; phrases :</em></p>
+				      <p>&nbsp;</p>
+				      <p>6.In full swing :</p>
+				      <table width="874">
+				        <tr>
+				          <td width="219"><label> a.
+				            <input type="radio" name="RadioGroup6" value="radio" id="RadioGroup2_20">
+				            Cheerful
+				          </label></td>
+				          <td width="210">b.
+				            <input type="radio" name="RadioGroup6" value="radio" id="RadioGroup2_21">
+				            Appreciative</td>
+				          <td width="242">c.
+				            <input type="radio" name="RadioGroup6" value="radio" id="RadioGroup2_22">
+				            Somewhat deaf</td>
+				          <td width="183">d.
+				            <input type="radio" name="RadioGroup6" value="radio" id="RadioGroup2_23">
+				            Very active</td>
+			            </tr>
+			          </table>
+				      <p>&nbsp;</p>
+				      <p>7.To keep the wolf from the door :</p>
+				      <table width="874">
+				        <tr>
+				          <td width="395"><label> a.
+				            <input type="radio" name="RadioGroup7" value="radio" id="RadioGroup2_24">
+				            to keep off starvation
+				          </label></td>
+				          <td width="467">b.
+				            <input type="radio" name="RadioGroup7" value="radio" id="RadioGroup2_25">
+			              to distinguish oneself</td>
+			            </tr>
+				        <tr>
+				          <td height="21">c.
+                            <input type="radio" name="RadioGroup7" value="radio" id="RadioGroup2_26">
+                          to be earnest</td>
+				          <td>d.
+                            <input type="radio" name="RadioGroup7" value="radio" id="RadioGroup2_27">
+                          confusing situation</td>
+			            </tr>
+			          </table>
+				      <p>&nbsp;</p>
+				      <p>8.To bite the dust :</p>
+				      <table width="874">
+				        <tr>
+				          <td width="395"><label> a.
+				            <input type="radio" name="RadioGroup8" value="radio" id="RadioGroup2_28">
+				            thoroughly depressed
+				          </label></td>
+				          <td width="467">b.
+				            <input type="radio" name="RadioGroup8" value="radio" id="RadioGroup2_29">
+				            to suffer defeat</td>
+			            </tr>
+				        <tr>
+				          <td height="21">c.
+				            <input type="radio" name="RadioGroup8" value="radio" id="RadioGroup2_30">
+				            to do something wrong </td>
+				          <td>d.
+				            <input type="radio" name="RadioGroup8" value="radio" id="RadioGroup2_31">
+				            to fall down</td>
+			            </tr>
+			          </table>
+				      <p>&nbsp;</p>
+				      <p>9.To fall short of :</p>
+				      <table width="747">
+				        <tr>
+				          <td width="389"><label> a.
+				            <input type="radio" name="RadioGroup9" value="radio" id="RadioGroup2_32">
+				            to quarrel with
+				          </label></td>
+				          <td width="346">b.
+                            <input type="radio" name="RadioGroup9" value="radio" id="RadioGroup2_34">
+                          to disagree with</td>
+			            </tr>
+				        <tr>
+				          <td>c.
+				            <input type="radio" name="RadioGroup9" value="radio" id="RadioGroup2_33">
+			              to be less than or below</td>
+				          <td>d.				            
+			              <input type="radio" name="RadioGroup9" value="radio" id="RadioGroup2_35">
+			              to deteriorate</td>
+			            </tr>
+			          </table>
+				      <p>&nbsp;</p>
+				      <p>10.specialty :</p>
+				      <table width="874">
+				        <tr>
+				          <td width="219"><label> a.
+				            <input type="radio" name="RadioGroup10" value="radio" id="RadioGroup2_36">
+				            alteration
+				          </label></td>
+				          <td width="209">b.
+				            <input type="radio" name="RadioGroup10" value="radio" id="RadioGroup2_37">
+			              process</td>
+				          <td width="202">c.
+				            <input type="radio" name="RadioGroup10" value="radio" id="RadioGroup2_38">
+			              fancy party</td>
+				          <td width="224">d.
+				            <input type="radio" name="RadioGroup10" value="radio" id="RadioGroup2_39">
+			              skill</td>
+			            </tr>
+			          </table>
+				      <p class="title1">&nbsp;</p>
+				      <p class="title1">&nbsp;			          </p>
+				      <p class="title1">
+				        <input name="b1" type="submit" class="text1" id="b1" value="Submit">
+			          </p>
+				      <p>&nbsp;</p>
+				    </form>
+				    <form name="form4" method="post" action="">
+				    </form>
+				    <p>&nbsp;</p>
+				    <form name="form2" method="post" action="">
+				    </form>
+				    <p>&nbsp;</p>
+				  </div>
+				  <form name="form1" method="post" action="">
+				  </form>
+		      </div>
+			</div>
+		</div>
+<!--==============================footer=================================-->
+		<footer>
+			<div class="container_12">
+				<div class="grid_12">
+					<div class="fa-3x">
+						<a href="#" class="fa fa-facebook"></a>
+						<a href="#" class="fa fa-twitter"></a>
+						<a href="#" class="fa fa-google-plus"></a>
+					</div>
+					<div class="clear"></div>
+					<div class="copy">
+						BizGroup &copy; 2014 | <a href="#">Privacy Policy</a> <br> Website designed by <a href="http://www.templatemonster.com/" rel="nofollow">TemplateMonster.com</a>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<script>
+		$(document).ready(function(){
+			$(".bt-menu-trigger").toggle(
+				function(){
+					$('.bt-menu').addClass('bt-menu-open');
+				},
+				function(){
+					$('.bt-menu').removeClass('bt-menu-open');
+				}
+			);
+			$('.responsive').on('click', '.close', function(){
+				$('.close').remove();
+				bgColor = $('.active .card-front').css('background-color');
+				$('.responsive').removeClass(effect);
+				$('.all-content').hide();
+				$('.content li').removeClass('active').show().css({ 
+					'border-bottom':'1px solid #2c2c2c',
+					'border-left':'1px solid #2c2c2c' 
+				});
+				$('.card-front, .card-back').show();
+				$('.content').css('background-color',bgColor);
+			});
+		});
+		</script>
+	</body>
+</html>
